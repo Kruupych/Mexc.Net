@@ -44,6 +44,11 @@ namespace Mexc.Net.Enums
         /// Rejected
         /// </summary>
         [Map("7")]
-        Rejected
+        Rejected,
+        /// <summary>
+        /// Credited (Funds available but possibly pending final confirmations)
+        /// </summary>
+        [Map("9")]
+        CreditedPreliminary
     }
 }
